@@ -1,0 +1,20 @@
+*.pdf
+
+# LaTeX output
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+
+# BibTeX output
+*.bbl
+*.blg
+
+# Unknown
+*.synctex.gz
+
+# Beamer
+*.nav
+*.out
+*.snm
+*.toc
