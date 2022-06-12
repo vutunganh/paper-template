@@ -5,4 +5,4 @@ all: $(MAIN)
 
 clean:
 	latexmk -c $(MAIN)
-	find . '( -name *.nav -o -name *.snm )' | xargs rm
+	rm -f *.nav *.snm
