@@ -1,4 +1,4 @@
-MAIN=
+MAIN=main.tex
 
 all: $(MAIN)
 	latexmk -latex=xelatex -pdf $<
