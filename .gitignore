@@ -9,6 +9,8 @@
 # BibTeX output
 *.bbl
 *.blg
+*-blx.bib
+*.run.xml
 
 # Unknown
 *.synctex.gz
