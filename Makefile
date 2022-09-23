@@ -5,4 +5,4 @@ all: $(MAIN)
 
 clean:
 	latexmk -c $(MAIN)
-	rm -f *.nav *.snm
+	rm -f *.nav *.snm *-blx.bib *.bbl *.run.xml
